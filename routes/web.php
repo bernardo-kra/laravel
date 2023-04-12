@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/estoque', [EstoqueController::class,"index" ]);
+Route::get('/estoque', [EstoqueController::class,"index" ])->name('estoque');
