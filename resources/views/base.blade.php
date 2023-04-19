@@ -26,7 +26,7 @@
                     <div class="flex justify-center">
                         <div class="">
                             <img class="hidden h-24 w-24 rounded-full sm:block object-cover mr-2 border-4 border-green-400" src="https://i.makeagif.com/media/5-08-2015/ymeF82.gif" alt="">
-                            <p class="font-bold text-base  text-gray-400 pt-2 text-center w-24">Safwan</p>
+                            <p class="font-bold text-base  text-gray-400 pt-2 text-center w-24">Bernardo</p>
                         </div>
                     </div>
                     <div>
