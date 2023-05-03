@@ -36,6 +36,7 @@ class EstoqueController extends Controller
 
     public function editarGravar(EstoqueRequest $form)
     {
+        dd($form);
         $dados = $form->validated();
         $estoque = Estoque::find($dados['id'] );
         $estoque->fill($dados);

@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="mx-auto max-w-xl">
-    <form action='{{route('estoqueAdicionar')}}' method="post" class="space-y-5">
+    <form action="{{route('estoqueAdicionar')}}" method="post" class="space-y-5">
         @if (isset($editar))
         @method('put')
         <input type='hidden' name='id' value="{{$editar->id}}"></input>
